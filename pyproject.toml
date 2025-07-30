@@ -1,0 +1,15 @@
+[project]
+name = "blackjax-gw"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "anesthetic>=2.10.2",
+    "blackjax",
+    "distrax>=0.1.5",
+    "tqdm>=4.67.1",
+]
+
+[tool.uv.sources]
+blackjax = { git = "https://github.com/handley-lab/blackjax", rev = "nested_sampling" }
